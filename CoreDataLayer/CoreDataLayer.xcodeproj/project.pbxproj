@@ -14,6 +14,7 @@
 		7EED99E6252A0A4A00896EA5 /* CoreDataLayer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7EED99E4252A0A4A00896EA5 /* CoreDataLayer.xcdatamodeld */; };
 		7EED99E8252A0A4B00896EA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EED99E7252A0A4B00896EA5 /* Assets.xcassets */; };
 		7EED99EB252A0A4B00896EA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EED99E9252A0A4B00896EA5 /* LaunchScreen.storyboard */; };
+		7EED99F3252A103200896EA5 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EED99F2252A103200896EA5 /* DatabaseManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		7EED99E7252A0A4B00896EA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EED99EA252A0A4B00896EA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EED99EC252A0A4B00896EA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EED99F2252A103200896EA5 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				7EED99E9252A0A4B00896EA5 /* LaunchScreen.storyboard */,
 				7EED99EC252A0A4B00896EA5 /* Info.plist */,
 				7EED99E4252A0A4A00896EA5 /* CoreDataLayer.xcdatamodeld */,
+				7EED99F2252A103200896EA5 /* DatabaseManager.swift */,
 			);
 			path = CoreDataLayer;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			files = (
 				7EED99E0252A0A4A00896EA5 /* ViewController.swift in Sources */,
 				7EED99DC252A0A4A00896EA5 /* AppDelegate.swift in Sources */,
+				7EED99F3252A103200896EA5 /* DatabaseManager.swift in Sources */,
 				7EED99E6252A0A4A00896EA5 /* CoreDataLayer.xcdatamodeld in Sources */,
 				7EED99DE252A0A4A00896EA5 /* SceneDelegate.swift in Sources */,
 			);
